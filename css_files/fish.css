@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head #logo
+{
+    float: left;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 3%;
+    mix-blend-mode: multiply;
+    
+}
+
+.cc{
+    background-image: url(../media/c.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140vh;
+    position: absolute;
+    left: 47%;
+    top: 10vh;
+    color:darkorchid;
+}
+.cc #ing
+{
+    position: absolute;
+    top: 8vh;
+    left: 8%;
+}
+.cc pre
+{
+    position: absolute;
+    top: 50.5vh;
+    right: 54.5%;
+    font-size: 15.2px;
+}
+#item{
+    position: absolute;
+    top: 30vh;
+  
+    height: 300px;
+    width: 400px;
+}
+#sign
+{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 130vh;
+    left: 80%;
+    mix-blend-mode: multiply;
+}

@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head #logo
+{
+    float: left;
+    width: 130px;
+    height: 120px;
+    mix-blend-mode: multiply;
+    
+}
+
+.head a
+{
+    float: right;
+    padding: 16px;
+    margin-top: 18px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: royalblue;
+}
+a:hover
+{
+    background-color: black;
+    color: white;
+   
+}
+.items
+{
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27%;
+    row-gap: 15%;
+    position: relative;
+    top: 35vh;
+    line-height: 1.5;
+}
+.wrap img
+{
+    width: 250px;
+    height: 120px;
+    display: block;
+    transition: transform 0.5s linear;
+}
+.wrap img:hover
+{
+    transform: scale(1.25);
+}
+.wrap .di
+{
+    margin-left: 22%;
+    color: chocolate;
+    text-decoration: none;
+    transform: scale(1.0);
+}
+.di:hover
+{
+    background-color: teal;
+    color: black;
+    transform: scale(1.5);
+}
+.wrap
+{
+    display: inline;
+}
